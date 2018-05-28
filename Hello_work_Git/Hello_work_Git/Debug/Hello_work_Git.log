@@ -1,0 +1,33 @@
+﻿Build started 5/28/2018 1:36:50 PM.
+     1>Project "C:\GitHubtraining\Hello_work_Git\Hello_work_Git\Hello_work_Git.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\GitHubtraining\Hello_work_Git\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\Hello_work_Git.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Hello_work_Git.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Hello_work_Git.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Hello_work_Git.cpp
+         Hello_work_Git.cpp
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Hello_work_Git.exe.embed.manifest.res" Debug\Hello_work_Git_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\GitHubtraining\Hello_work_Git\Debug\Hello_work_Git.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Hello_work_Git.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\GitHubtraining\Hello_work_Git\Debug\Hello_work_Git.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\GitHubtraining\Hello_work_Git\Debug\Hello_work_Git.lib" /MACHINE:X86 Debug\Hello_work_Git.exe.embed.manifest.res
+         Debug\Hello_work_Git.obj
+         Debug\stdafx.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Hello_work_Git.exe.embed.manifest" /manifest Debug\Hello_work_Git.exe.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Hello_work_Git.exe.embed.manifest.res" Debug\Hello_work_Git_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\GitHubtraining\Hello_work_Git\Debug\Hello_work_Git.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Hello_work_Git.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\GitHubtraining\Hello_work_Git\Debug\Hello_work_Git.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\GitHubtraining\Hello_work_Git\Debug\Hello_work_Git.lib" /MACHINE:X86 Debug\Hello_work_Git.exe.embed.manifest.res
+         Debug\Hello_work_Git.obj
+         Debug\stdafx.obj
+         Hello_work_Git.vcxproj -> C:\GitHubtraining\Hello_work_Git\Debug\Hello_work_Git.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Hello_work_Git.unsuccessfulbuild".
+         Touching "Debug\Hello_work_Git.lastbuildstate".
+     1>Done Building Project "C:\GitHubtraining\Hello_work_Git\Hello_work_Git\Hello_work_Git.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.55
